@@ -1,3 +1,4 @@
+/* This styling will apply to the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,6 +25,7 @@ body {
     color: #d9dcd6;
 }
 
+/* The topnav is part of the header */
 .topnav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,16 +41,19 @@ body {
     list-style-type: none;
 }
 
+/* This is the styling for all the links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This is the styling for all the paragraphs */
 p {
     font-size: 16px;
     display: block;
 }
 
+/* Main hero image styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,6 +69,7 @@ p {
     margin-left: 20px;
 }
 
+/* Start #seo styles */
 #seo {
     margin-bottom: 20px;
     padding: 50px;
@@ -87,6 +93,9 @@ p {
     max-height: 200px;
 }
 
+/* End #seo styles */
+
+/* Start #orm styles */
 #orm {
     margin-bottom: 20px;
     padding: 50px;
@@ -109,7 +118,9 @@ p {
     margin-right: 25px;
 
 }
+/* End #orm styles */
 
+/* Start #smm styles */
 #smm {
     margin-bottom: 20px;
     padding: 50px;
@@ -133,6 +144,9 @@ p {
 
 }
 
+/* End #smm styles */
+
+/* All styling for webpage right sidebar */
 .sidebar {
     margin-right: 20px;
     padding: 20px;
@@ -162,7 +176,7 @@ p {
     color: #ffffff;
 }
 
-
+/* Footer styling */
 .footer {
     padding: 30px;
     clear: both;
